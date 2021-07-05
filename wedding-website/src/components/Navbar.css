@@ -1,0 +1,11 @@
+.navbar__container {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100px;
+  justify-content: space-evenly;
+}
+
+.navbar__link {
+  text-decoration: none;
+}

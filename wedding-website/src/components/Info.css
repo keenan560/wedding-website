@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Rouge+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Oswald:wght@200&family=Pinyon+Script&display=swap");
+
+.info__container {
+  margin-bottom: 200px;
+  height: 300px;
+  align-items: "center";
+}
+
+.info__title {
+  text-align: center;
+  font-family: "Pinyon Script", cursive;
+  font-size: 150px;
+  font-weight: 100;
+}
+
+.info__subtitle {
+  text-align: center;
+  font-size: 80px;
+  font-weight: normal;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 50px;
+}
+
+.info__date__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.info__date {
+}
