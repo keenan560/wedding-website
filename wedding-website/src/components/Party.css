@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
+
+.party__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: #a8e6d2;
+}
+.party__title {
+  font-family: "Pinyon Script", cursive;
+  text-align: center;
+}
+.party__bride {
+  margin-top: 50px;
+}
+
+.party__groom {
+  margin-top: 50px;
+}
+
+.party__other {
+  margin-top: 50px;
+}
+
+.party__item {
+  border-bottom: 0.5px solid lightgray;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.party__banner__container {
+  display: flex;
+  justify-content: "center";
+  align-items: center;
+  /* background-color: lightgray; */
+}
+.party__banner {
+  height: auto;
+  width: 325px !important;
+}
+.party__banner__desc {
+  margin: 10px;
+}

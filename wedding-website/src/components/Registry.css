@@ -1,0 +1,37 @@
+.registry__container {
+  text-align: center;
+}
+
+.registry__banner {
+  width: 100;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.registry__text__background {
+}
+.registry__text {
+  z-index: 100;
+  position: absolute;
+  color: #fff;
+  background-color: #141414;
+  font-weight: bold;
+  left: 150px;
+  top: 550px;
+  margin-right: 150px;
+  text-align: left;
+  opacity: 0.5;
+}
+.registry__donate {
+  background-color: #141414 !important;
+  color: #fff !important;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 100;
+  position: absolute;
+  left: 100px;
+  top: 650px;
+}

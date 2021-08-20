@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
+
+.story__container {
+  align-items: center;
+}
+.story__title {
+  font-family: "Pinyon Script", cursive;
+  margin: 20px;
+}
+
+.story__when {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #a8e6d2;
+  border-radius: 10px;
+}
+
+.story__when > p {
+  flex: 0.6;
+  font-size: 25px;
+}
+.story__when > img {
+  max-width: 450px !important;
+  height: auto;
+  flex: 0.4;
+}
+.story__where {
+  display: flex;
+  justify-content: space-between;
+  align-items: "center" !important;
+  margin: 20px;
+  padding: 10px;
+}
+.story__where > p {
+  flex: 0.6;
+  font-size: 25px;
+}
+.story__where > img {
+  max-width: 450px !important;
+  height: auto;
+  flex: 0.4;
+}
+.story__how {
+  display: flex;
+  justify-content: space-between;
+  align-items: "center" !important;
+  margin: 20px;
+  padding: 10px;
+  background-color: #a8e6d2;
+  border-radius: 10px;
+}
+.story__how > p {
+  flex: 0.6;
+  align-items: center;
+  font-size: 25px;
+}
+.story__how > img {
+  max-width: 450px !important;
+  height: auto;
+  flex: 0.4;
+}
+.story__outcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: "center";
+  margin: 20px;
+  padding: 10px;
+}
+
+.story__outcome > p {
+  flex: 0.6;
+  font-size: 25px;
+}
+
+.story__outcome > img {
+  max-width: 450px !important;
+  height: auto;
+  flex: 0.4;
+}

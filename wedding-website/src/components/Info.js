@@ -7,7 +7,7 @@ function Info() {
       <h1 className="info__title">Our Wedding</h1>
       <h1 className="info__subtitle">Diana & Keenan</h1>
       <div className="info__date__container">
-        <h2 className="info__date">Saturday April 30 at 5:00pm, 2022</h2>
+        <h2 className="info__date">Saturday April 30th 2022 at 5:00 pm</h2>
         <h2 className="info__location">
           Dreams Spa & Resort Punta Cana, Dominican Republic
         </h2>
