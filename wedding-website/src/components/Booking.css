@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
+.booking__container {
+}
+
+.booking__title {
+  font-family: "Pinyon Script", cursive;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.booking__rates {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.booking__tableHead {
+  background-color: #a8e6d2;
+}
+
+.booking__headCell {
+  font-weight: bold !important;
+}
+
+.booking__disclaimer {
+  margin-top: 10px;
+}

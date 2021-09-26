@@ -46,6 +46,11 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="/booking">
+                Booking
+              </a>
+            </li>
+            <li className="nav-item">
               <a
                 className="nav-link"
                 href="/travel

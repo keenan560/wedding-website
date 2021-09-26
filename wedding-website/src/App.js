@@ -6,10 +6,11 @@ import Photos from "./components/Photos";
 import Party from "./components/Party";
 import Questions from "./components/Questions";
 import Travel from "./components/Travel";
-import Things from "./components/Things";
 import Registry from "./components/Registry";
 import Rsvp from "./components/Rsvp";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import HeadCount from "./components/HeadCount";
+import Booking from "./components/Booking";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -32,14 +33,17 @@ function App() {
           <Route path="/travel">
             <Travel />
           </Route>
-          <Route path="/things-to-do">
-            <Things />
-          </Route>
           <Route path="/registry">
             <Registry />
           </Route>
           <Route path="/rsvp">
             <Rsvp />
+          </Route>
+          <Route path="/guests">
+            <HeadCount />
+          </Route>
+          <Route path="/booking">
+            <Booking />
           </Route>
           <Route path="/">
             <Home />

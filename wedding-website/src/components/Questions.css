@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
+
+.questions__container {
+  flex: 1;
+}
+.questions__title {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-family: "Pinyon Script", cursive;
+  margin-left: 20px;
+}
+
+.card-header-questions {
+  background-color: #fff !important;
+}
+Button {
+  font-weight: bolder !important;
+}
+
+.card-body-questions {
+  background-color: #fff;
+  border-radius: initial !important;
+  font-size: 20px;
+}
+
+#website-link {
+  text-decoration: none !important;
+  color: #a8e6d2;
+  font-weight: bold !important;
+}
