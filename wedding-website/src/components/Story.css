@@ -14,7 +14,8 @@
   align-items: center;
   margin: 20px;
   padding: 10px;
-  background-color: #a8e6d2;
+  /* background-color: #a8e6d2; */
+
   border-radius: 10px;
 }
 
@@ -33,6 +34,7 @@
   align-items: "center" !important;
   margin: 20px;
   padding: 10px;
+  background-color: #fff !important;
 }
 .story__where > p {
   flex: 0.6;
@@ -49,7 +51,8 @@
   align-items: "center" !important;
   margin: 20px;
   padding: 10px;
-  background-color: #a8e6d2;
+  /* background-color: #a8e6d2; */
+
   border-radius: 10px;
 }
 .story__how > p {
@@ -68,6 +71,7 @@
   align-items: "center";
   margin: 20px;
   padding: 10px;
+  background-color: #fff !important;
 }
 
 .story__outcome > p {

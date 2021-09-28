@@ -1,21 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
-.home__container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+
+.home {
   background-color: #a8e6d2;
+  height: 100% !important;
+}
+.home__container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100%; */
+  background-color: #a8e6d2;
+  margin-top: 20px;
 }
 
 .home__img {
-  width: 50%;
+  /* width: 50%; */
+  max-width: 500px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .home__title__container {
   padding: 10px;
   display: block;
+  margin-right: 100px;
+  margin-bottom: 10px;
 }
 
 .home__text__container {
@@ -25,7 +36,7 @@
 
 .home__title__main {
   font-size: 80px;
-  text-align: center;
+  /* text-align: center; */
   /* font-family: "Dancing Script", cursive; */
   font-family: "Pinyon Script", cursive;
 }
