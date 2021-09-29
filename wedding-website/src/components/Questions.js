@@ -22,7 +22,7 @@ const questions = [
     question:
       "Is there is a discount for wedding guests who want to stay at the resort?",
     answer:
-      "Yes there is a discount code that can be used at the time of booking. Please use the CODE: ",
+      "Yes there is a discount on room reservation for those who wish to stay at the resort. For the discount please email Arisquelemy Rosario at groups.drepc@dreamsresorts.com",
   },
   {
     question: "Does the resort provide babysitting services?",

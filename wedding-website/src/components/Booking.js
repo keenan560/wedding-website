@@ -200,6 +200,10 @@ function Booking() {
         *Max and Min Occupancy - A number with a decimal i.e. "2.1", means 2
         adults and 1 child.
       </p>
+      <p className="booking__disclaimer">
+        *The rates you see are per person per night. Children 12 and under are
+        free.
+      </p>
 
       <div className="accordion" id="accordionExample">
         <div className="card">

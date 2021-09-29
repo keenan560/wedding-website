@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
 const brideParty = [
   { firstName: "Diana", lastName: "Coats", title: "Bride" },
   { firstName: "??", lastName: "??", title: "Maid of Honor" },
-  { firstName: "Carlina", lastName: "Pania", title: "Bridesmaid" },
-  { firstName: "Natalie", lastName: "Villafona", title: "Bridesmaid" },
+  { firstName: "Carlina", lastName: "Paniagua", title: "Bridesmaid" },
+  { firstName: "Natalie", lastName: "Villafana", title: "Bridesmaid" },
 ];
 const groomParty = [
   { firstName: "Keenan", lastName: "Mapp", title: "Groom" },
@@ -36,8 +36,8 @@ const groomParty = [
 
 const otherList = [
   { firstName: "Jayden", lastName: "Kilroy", title: "Ring Bearer" },
-  { firstName: "Victoria", lastName: "Villafona", title: "Flower Girl" },
-  { firstName: "Sarah", lastName: "Pania", title: "Flower Girl" },
+  { firstName: "Victoria", lastName: "Villafana", title: "Flower Girl" },
+  { firstName: "Sarah", lastName: "Paniagua", title: "Flower Girl" },
   { firstName: "Jiselle", lastName: "Mapp", title: "Flower Girl" },
 ];
 function Party() {
@@ -90,7 +90,6 @@ function Party() {
           <List className={classes.root + " " + "shadow"}>
             {otherList.map((person, idx) => (
               <ListItem key={idx} className="party__item">
-        
                 <ListItemText
                   primary={person.firstName + " " + person.lastName}
                   secondary={"Title:" + " " + person.title}
@@ -105,7 +104,6 @@ function Party() {
           alt="photo"
           src={party}
           className="party__banner img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
-         
         />
         <h1 className="party__banner__desc">
           We want to give a special thanks to the wonderful friends and family

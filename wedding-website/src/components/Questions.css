@@ -28,3 +28,36 @@ Button {
   font-weight: bold !important;
   width: 300px;
 }
+
+#email {
+  width: 100%;
+}
+
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  #website-link {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #website-link {
+    width: 100%;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #website-link {
+    width: 100%;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #website-link {
+    width: 100%;
+  }
+}
