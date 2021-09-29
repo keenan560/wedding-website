@@ -6,7 +6,7 @@ function Photos() {
   return (
     <div>
       <h1 className="photo__title ">Gallery</h1>
-      <div className="photos__container mx-4">
+      <div className="photos__container mx-4 shadow">
         <div
           id="carouselExampleControls"
           className="carousel slide"

@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light position-sticky overflow-hidden shadow navbar__container">
       <div className="container-fluid">
         <a className="navbar-brand navbar__logo" href="/">
-          Keenan & Diana
+          Keenan <span className="heart">&hearts;</span> Diana
         </a>
         <button
           className="navbar-toggler"

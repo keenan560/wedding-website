@@ -5,8 +5,8 @@ import Button from "@material-ui/core/Button";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="home__container">
+    <div className="home mx-3 shadow">
+      <div className="home__container mx-auto p-3">
         <img src={home} class="img-thumbnail shadow home__img" alt="home"></img>
         <div className="home__title__container">
           <h1 className="home__title__main">Diana & Keenan's Wedding</h1>
