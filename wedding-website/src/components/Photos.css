@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
+
+.photo__title {
+  font-family: "Pinyon Script", cursive;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.photos__container {
+  background-color: #a8e6d2;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel {
+  max-width: 900px;
+  max-height: 700px;
+  /* margin-bottom: 500px; */
+  flex: .6
+}
+
+
+.img-thumbnail-gal {
+  max-width: 900px;
+  max-height: 700px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+
+}
+
+.quote {
+  text-align: center;
+  flex: .4;
+  
+
+}
