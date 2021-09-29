@@ -41,3 +41,200 @@
 .party__banner__desc {
   margin: 10px;
 }
+
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .main {
+    display: block;
+  }
+  .party__container {
+    display: block;
+    background-color: #a8e6d2;
+    padding: 5px;
+  }
+  .party__title {
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+  }
+  .party__bride {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__groom {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__other {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__item {
+    border-bottom: 0.5px solid lightgray;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .party__banner__container {
+    display: block;
+  }
+
+  .party__banner__container > img {
+    width: 100% !important;
+  }
+
+  .party__banner__desc {
+    margin: 10px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main {
+    display: block;
+  }
+  .party__container {
+    display: block;
+    background-color: #a8e6d2;
+    padding: 5px;
+  }
+  .party__title {
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+  }
+  .party__bride {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__groom {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__other {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__item {
+    border-bottom: 0.5px solid lightgray;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .party__banner__container {
+    display: block;
+    width: 100%;
+  }
+
+  .party__banner__container > img {
+    width: 100% !important;
+  }
+
+  .party__banner__desc {
+    margin: 10px;
+    font-size: 25px;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .main {
+    display: block;
+  }
+  .party__container {
+    display: block;
+    background-color: #a8e6d2;
+    padding: 5px;
+  }
+  .party__title {
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+  }
+  .party__bride {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__groom {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__other {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__item {
+    border-bottom: 0.5px solid lightgray;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .party__banner__container {
+    display: block;
+    width: 100%;
+  }
+
+  .party__banner__container > img {
+    width: 100% !important;
+  }
+
+  .party__banner__desc {
+    margin: 10px;
+    font-size: 25px;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main {
+    display: block;
+  }
+  .party__container {
+    display: block;
+    background-color: #a8e6d2;
+    padding: 5px;
+  }
+
+  .party__bride {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__groom {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__other {
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .party__item {
+    border-bottom: 0.5px solid lightgray;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .party__banner__container {
+    display: block;
+    width: 100%;
+  }
+
+  .party__banner__container > img {
+    width: 100% !important;
+  }
+
+  .party__banner__desc {
+    margin: 10px;
+    font-size: 25px;
+  }
+}

@@ -18,9 +18,8 @@
   max-width: 900px;
   max-height: 700px;
   /* margin-bottom: 500px; */
-  flex: .6
+  flex: 0.6;
 }
-
 
 .img-thumbnail-gal {
   max-width: 900px;
@@ -28,12 +27,86 @@
   height: auto;
   width: auto;
   border-radius: 10px;
-
 }
 
 .quote {
   text-align: center;
-  flex: .4;
-  
+  flex: 0.4;
+}
 
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .photos__container {
+    display: block;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .carousel {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .img-thumbnail-gal {
+    width: 100%;
+  }
+  .quote {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photos__container {
+    display: block;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .carousel {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .img-thumbnail-gal {
+    width: 100%;
+  }
+  .quote {
+    margin-bottom: 30px;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .photos__container {
+    display: block;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .carousel {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .img-thumbnail-gal {
+    width: 100%;
+  }
+  .quote {
+    margin-bottom: 30px;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photos__container {
+    display: block;
+    border-radius: 0px;
+    padding: 5px;
+  }
+  .carousel {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .img-thumbnail-gal {
+    width: 100%;
+  }
+  .quote {
+    margin-bottom: 30px;
+  }
 }
