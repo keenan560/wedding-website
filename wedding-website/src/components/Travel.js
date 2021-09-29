@@ -297,7 +297,11 @@ function Travel() {
             </div>
           </div>
         </div>
-        <img src={car} alt="car" className="travel__img img-thumbnail shadow" />
+        <img
+          src={car}
+          alt="car"
+          className="travel__img img-thumbnail shadow animate__animated animate__fadeIn animate__fast"
+        />
       </div>
       <h1 className="travel__title">Restaurants</h1>
       <TableContainer component={Paper}>

@@ -15,7 +15,6 @@
   margin: 20px;
   padding: 10px;
   background-color: #a8e6d2;
-
   border-radius: 10px;
 }
 
@@ -29,9 +28,9 @@
   flex: 0.4;
 }
 .story__where {
-  display: flex;
+ display: flex;
   justify-content: space-between;
-  align-items: "center" !important;
+  align-items: center;
   margin: 20px;
   padding: 10px;
   background-color: #fff !important;
@@ -48,11 +47,10 @@
 .story__how {
   display: flex;
   justify-content: space-between;
-  align-items: "center" !important;
+  align-items: center;
   margin: 20px;
   padding: 10px;
   background-color: #a8e6d2;
-
   border-radius: 10px;
 }
 .story__how > p {
@@ -66,9 +64,9 @@
   flex: 0.4;
 }
 .story__outcome {
-  display: flex;
+ display: flex;
   justify-content: space-between;
-  align-items: "center";
+  align-items: center;
   margin: 20px;
   padding: 10px;
   background-color: #fff !important;

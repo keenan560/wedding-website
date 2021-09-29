@@ -4,11 +4,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
+
 import Avatar from "@material-ui/core/Avatar";
 import party from "../assets/party.jpg";
 import party2 from "../assets/party2.jpg";
-import party3 from "../assets/party3.jpg";
+// import party3 from "../assets/party3.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,7 +52,7 @@ function Party() {
 
   return (
     <div className="main">
-      <div className="party__container">
+      <div className="party__container animate__animated animate__fadeInDown animate__slow">
         <div className="party__bride ">
           <h1 className="party__title">Bridal Party</h1>
           <List className={classes.root + " " + "shadow"}>
@@ -90,9 +90,7 @@ function Party() {
           <List className={classes.root + " " + "shadow"}>
             {otherList.map((person, idx) => (
               <ListItem key={idx} className="party__item">
-                {/* <ListItemAvatar>
-                <Avatar></Avatar>
-              </ListItemAvatar> */}
+        
                 <ListItemText
                   primary={person.firstName + " " + person.lastName}
                   secondary={"Title:" + " " + person.title}
@@ -106,7 +104,8 @@ function Party() {
         <img
           alt="photo"
           src={party}
-          className="party__banner img-thumbnail shadow"
+          className="party__banner img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
+         
         />
         <h1 className="party__banner__desc">
           We want to give a special thanks to the wonderful friends and family
@@ -115,7 +114,7 @@ function Party() {
         <img
           alt="photo"
           src={party2}
-          className="party__banner img-thumbnail shadow"
+          className="party__banner img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
         />
       </div>
     </div>

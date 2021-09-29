@@ -28,7 +28,7 @@ function Photos() {
                   <img
                     key={idx}
                     src={photo.url}
-                    className="img-thumbnail-gal animate__animated animate__fadeIn animate"
+                    className="img-thumbnail-gal img-thumbnail animate__animated animate__fadeIn animate d-block w-100"
                     alt={idx}
                   />
                 </div>
@@ -37,7 +37,7 @@ function Photos() {
                   <img
                     key={idx}
                     src={photo.url}
-                    className="img-thumbnail-gal animate__animated animate__fadeIn animate"
+                    className="img-thumbnail-gal img-thumbnail animate__animated animate__fadeIn animate d-block w-100"
                     alt={idx}
                   />
                 </div>

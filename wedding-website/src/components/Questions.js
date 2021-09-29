@@ -46,12 +46,15 @@ const questions = [
   {
     question: "What is the website address to the resort?",
     answer: (
-      <a
+      <Button
         id="website-link"
+        type="button"
+        className="home__button"
         href="https://www.dreamsresorts.com/en_us/resorts/dominican-republic/punta-cana.html"
+        target="_blank"
       >
         Dreams Resorts & Spa.
-      </a>
+      </Button>
     ),
   },
 ];

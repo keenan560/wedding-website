@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 
 function Registry() {
   return (
-    <div className="registry__container">
+    <div className="registry__container animate__animated animate__fadeIn animate__slower">
       <img className="registry__banner img-fluid" alt="photo" src={registry} />
       <div className="registry__text__background">
         <h1 className="registry__text">

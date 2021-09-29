@@ -34,6 +34,7 @@ function Rsvp() {
       })
       .catch((error) => {
         console.log(error.message);
+        alert("Reservation failed.");
       });
 
     reset({

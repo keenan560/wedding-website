@@ -2,7 +2,7 @@ import React from "react";
 import "./Story.css";
 import when from "../assets/2016.jpeg";
 import tsc from "../assets/tsc.jpeg";
-import how from "../assets/how.jpg";
+// import how from "../assets/how.jpg";
 import outcome from "../assets/outcome.jpg";
 import centralpark from "../assets/centralpark.jpeg";
 
@@ -12,64 +12,46 @@ function Story() {
       <h1 className="story__title">Our Story</h1>
       <div className="story__when">
         <p className="story__when__text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          In April of 2016 is the year our journey began.
         </p>
-        <img className="story__when__img img-thumbnail shadow" src={when} />
+        <img
+          className="story__when__img img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
+          src={when}
+          alt="when"
+        />
       </div>
       <div className="story__where">
-        <img className="story__where__img img-thumbnail shadow" src={tsc} />
+        <img
+          className="story__where__img img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
+          src={tsc}
+          alt="where"
+        />
         <p className="story__where__text">
-          t is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          We first crossed paths after attending a church service at Times
+          Square Church located on Broadway & W 51st Street in Manhattan. To be
+          more specific it was at McDonald's.
         </p>
       </div>
       <div className="story__how">
         <p className="story__how__text">
-          t is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          After a church service a group of mutual friends went out to eat a
+          restaurant in mid-town.
         </p>
         <img
           src={centralpark}
-          className="story__how__img img-thumbnail shadow"
+          className="story__how__img img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
+          alt="park"
         />
       </div>
       <div className="story__outcome">
         <img
           src={outcome}
-          className="story__outcome__img img-thumbnail shadow"
+          className="story__outcome__img img-thumbnail shadow animate__animated animate__fadeIn animate__slower"
+          alt="outcome"
         />
         <p className="story__outcome__text">
-          t is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          5 years later we have overcame trials and challenges and have proven
+          that clinging to one another works.
         </p>
       </div>
     </div>

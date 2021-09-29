@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light position-sticky overflow-hidden shadow navbar__container">
+    <nav className="navbar navbar-expand-lg navbar-light position-sticky overflow-hidden shadow navbar__container animate__animated animate__fadeIn">
       <div className="container-fluid">
         <a className="navbar-brand navbar__logo" href="/">
           Keenan <span className="heart">&hearts;</span> Diana
