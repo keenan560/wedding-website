@@ -19,7 +19,12 @@ function Home() {
             <h3 className="my-2">Ceremony at 5:00pm EST</h3>
             <h3 className="my-2">Dreams Resort Hotel</h3>
             <h3 className="my-2">Punta Cana, Dominican Republic</h3>
-            <Button type="button" className="home__button" href="/rsvp">
+            <Button
+              id="textb4-button"
+              type="button"
+              className="home__button"
+              href="/rsvp"
+            >
               RSVP
             </Button>
           </div>

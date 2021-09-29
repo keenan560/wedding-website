@@ -2,11 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap");
 
 .home {
-
   /* height: 100% !important; */
   padding-top: 10px;
   padding-bottom: 10px;
-      
 }
 .home__container {
   /* width: 100%; */
@@ -16,7 +14,6 @@
   /* height: 100%; */
   background-color: #a8e6d2;
   margin-top: 20px;
-
 }
 
 .home__img {
@@ -52,4 +49,178 @@
   height: 50px;
   font-weight: bold;
   border-radius: 5px;
+}
+
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .home {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .home__container {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home__img {
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 50px; */
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .home__title__container {
+    display: block;
+  }
+
+  .home__title__main {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  .home__text__container {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #textb4-button {
+    margin-top: 75px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .home {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .home__container {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home__img {
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 50px; */
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .home__title__container {
+    display: block;
+  }
+
+  .home__title__main {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  .home__text__container {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #textb4-button {
+    margin-top: 75px;
+    margin-bottom: 0px;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .home {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .home__container {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+       text-align: center;
+  }
+
+  .home__img {
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 50px; */
+  
+ 
+  }
+  .home__title__container {
+    display: block;
+  }
+
+  .home__title__main {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  .home__text__container {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #textb4-button {
+    margin-top: 75px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .home {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .home__container {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home__img {
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 50px; */
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .home__title__container {
+    display: block;
+  }
+
+  .home__title__main {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  .home__text__container {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #textb4-button {
+    margin-top: 75px;
+    margin-bottom: 0px;
+  }
 }
