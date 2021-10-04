@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -10,6 +11,7 @@ import Registry from "./components/Registry";
 import Rsvp from "./components/Rsvp";
 import HeadCount from "./components/HeadCount";
 import Booking from "./components/Booking";
+import PayPal from "./components/PayPal";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -44,6 +46,9 @@ function App() {
           </Route>
           <Route path="/booking">
             <Booking />
+          </Route>
+          <Route path="/donate">
+            <PayPal />
           </Route>
           <Route path="/">
             <Home />

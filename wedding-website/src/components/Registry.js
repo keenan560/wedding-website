@@ -15,7 +15,7 @@ function Registry() {
         </h1>
       </div>
 
-      <Button className="registry__donate" variant="outlined" color="default">
+      <Button className="registry__donate" variant="outlined" color="default" href="/donate">
         Donate
       </Button>
     </div>
