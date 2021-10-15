@@ -156,6 +156,13 @@ function Booking() {
     <div className="booking__container mx-5">
       <h1 className="booking__title">Booking Information</h1>
       <h3 className="booking__rates">Room Rates</h3>
+      <div className="arrow__container">
+        <span id="table__arrow" class="material-icons">
+          navigate_next
+        </span>
+        <p>Scroll table to right to see rates.</p>
+      </div>
+
       <TableContainer component={Paper}>
         <Table className="" size="small" aria-label="a dense table">
           <TableHead className="booking__tableHead">
@@ -204,7 +211,6 @@ function Booking() {
         *The rates you see are per person per night. Children 12 and under are
         free.
       </p>
-
       <div className="accordion" id="accordionExample">
         <div className="card">
           <div className="card-header" id="headingOne">

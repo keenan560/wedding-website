@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 function PayPal() {
+  const [price, setPrice] = useState("");
   const paypal = useRef();
   useEffect(() => {
     window.paypal
@@ -29,8 +30,7 @@ function PayPal() {
       })
       .render(paypal.current);
   }, []);
-  const [price, setPrice] = useState(0);
-
+  console.log(price);
   return (
     <div
       className="paypal__container text-center"

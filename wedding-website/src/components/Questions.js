@@ -11,7 +11,7 @@ const questions = [
   {
     question: "Is the resort all inclusive?",
     answer:
-      "Yes the resort is all inclusive. Wedding guests do not have to worry about extra fees related to food, as it is included in the booking price.",
+      "Yes. The resort is all inclusive. Wedding guests do not have to worry about extra fees related to food, as it is included in the booking price.",
   },
   {
     question: "How can I iron my dress/suit the day of the wedding?",
@@ -22,16 +22,17 @@ const questions = [
     question:
       "Is there is a discount for wedding guests who want to stay at the resort?",
     answer:
-      "Yes there is a discount on room reservation for those who wish to stay at the resort. For the discount please email Arisquelemy Rosario at groups.drepc@dreamsresorts.com",
+      "Yes. There is a discount on room reservation for those who wish to stay at the resort. For the discount please email Arisquelmy Rosario at groups.drepc@dreamsresorts.com",
   },
   {
     question: "Does the resort provide babysitting services?",
-    answer: "Yes for an additional fee babysitting is available upon request.",
+    answer:
+      "Yes. For an additional fee, babysitting is available upon request.",
   },
   {
     question: "Can I choose to stay at a different resort/hotel?",
     answer:
-      "Yes you may choose to stay at a different resort/hotel. We ask that you let us know in advance in order to make proper accommodations such as a guest pass for the day of the wedding.",
+      "Yes. You may choose to stay at a different resort/hotel. We ask that you let us know in advance in order to make proper accommodations such as a guest pass for the day of the wedding.",
   },
   {
     question: "Is there a wedding registry?",
@@ -41,7 +42,7 @@ const questions = [
   {
     question: "What kind of weather should I be expecting in April?",
     answer:
-      "Being an island, the Dominican Republic is hot for most part year-round. April is not a part of the hurricane season there expect sunshine and heat.",
+      "Being an island, the Dominican Republic is hot for the most part year-round. April is not a part of the hurricane season. Therefore expect sunshine and heat.",
   },
   {
     question: "What is the website address to the resort?",

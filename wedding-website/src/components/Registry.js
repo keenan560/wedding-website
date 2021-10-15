@@ -11,11 +11,16 @@ function Registry() {
         <h1 className="registry__text">
           Although the thought of giving a gift counts, we'd really appreciate
           any donations to assist us for our honeymoon. Should you find it in
-          your heart to give please see the link below to our GoFundMe page.
+          your heart to give you can do so via the link below.
         </h1>
       </div>
 
-      <Button className="registry__donate" variant="outlined" color="default" href="/donate">
+      <Button
+        className="registry__donate"
+        variant="outlined"
+        color="default"
+        href="/donate"
+      >
         Donate
       </Button>
     </div>

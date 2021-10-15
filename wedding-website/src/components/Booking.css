@@ -25,3 +25,68 @@
 .booking__disclaimer {
   margin-top: 10px;
 }
+
+#table__arrow {
+  color: #a8e6d2;
+  font-weight: bolder;
+  display: none;
+}
+
+.arrow__container {
+  display: none;
+  display: flex;
+  justify-content: start;
+}
+
+.arrow__container > p {
+  display: none;
+}
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  #table__arrow {
+    color: #a8e6d2;
+    font-weight: bolder;
+    display: table-caption;
+  }
+
+  .arrow__container > p {
+    display: unset;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #table__arrow {
+    color: #a8e6d2;
+    font-weight: bolder;
+    display: table-caption;
+  }
+  .arrow__container > p {
+    display: unset;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #table__arrow {
+    color: #a8e6d2;
+    font-weight: bolder;
+    display: table-caption;
+  }
+  .arrow__container > p {
+    display: unset;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  #table__arrow {
+    color: #a8e6d2;
+    font-weight: bolder;
+    display: table-caption;
+  }
+  .arrow__container > p {
+    display: unset;
+  }
+}
