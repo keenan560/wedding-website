@@ -160,7 +160,7 @@ function Booking() {
         <span id="table__arrow" class="material-icons">
           navigate_next
         </span>
-        <p>Scroll table to right to see rates.</p>
+        <p>Scroll table to left to see rates.</p>
       </div>
 
       <TableContainer component={Paper}>
