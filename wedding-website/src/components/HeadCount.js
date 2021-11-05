@@ -5,7 +5,7 @@ import "./HeadCount.css";
 function HeadCount() {
   const [guests, setGuests] = useState([]);
   useEffect(() => {
-    database.collection("guests").onSnapshot((snapshot) => {
+    database.collection("guests").orderBy("timeStamp", "asc").onSnapshot((snapshot) => {
       setGuests(snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() })));
     });
   }, []);
