@@ -4,11 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-
-import Avatar from "@material-ui/core/Avatar";
 import party from "../assets/party.jpg";
 import party2 from "../assets/party2.jpg";
-// import party3 from "../assets/party3.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,19 +20,20 @@ const useStyles = makeStyles((theme) => ({
 
 const brideParty = [
   { firstName: "Diana", lastName: "Coats", title: "Bride" },
-  { firstName: "??", lastName: "??", title: "Maid of Honor" },
-  { firstName: "Carlina", lastName: "Paniagua", title: "Bridesmaid" },
-  { firstName: "Natalie", lastName: "Villafana", title: "Bridesmaid" },
+  { firstName: "Natalie", lastName: "Villafana", title: "Matron of Honor" },
+  { firstName: "Carlina", lastName: "Paniagua", title: "Maid of Honor" },
+  { firstName: "Elizabeth", lastName: "Coats", title: "Bridesmaid" },
 ];
 const groomParty = [
   { firstName: "Keenan", lastName: "Mapp", title: "Groom" },
-  { firstName: "??", lastName: "??", title: "Best Man" },
+  { firstName: "Paul", lastName: "Mapp", title: "Patron of Honor" },
   { firstName: "Braley", lastName: "Francisco", title: "Groomsman" },
   { firstName: "Eric", lastName: "Saldibar", title: "Groomsman" },
 ];
 
 const otherList = [
   { firstName: "Jayden", lastName: "Kilroy", title: "Ring Bearer" },
+  { firstName: "Faith", lastName: "Villafana", title: "Flower Girl" },
   { firstName: "Victoria", lastName: "Villafana", title: "Flower Girl" },
   { firstName: "Sarah", lastName: "Paniagua", title: "Flower Girl" },
   { firstName: "Jiselle", lastName: "Mapp", title: "Flower Girl" },
@@ -58,9 +56,6 @@ function Party() {
           <List className={classes.root + " " + "shadow"}>
             {brideList.map((person, idx) => (
               <ListItem key={idx} className="party__item">
-                {/* <ListItemAvatar>
-                <Avatar></Avatar>
-              </ListItemAvatar> */}
                 <ListItemText
                   primary={person.firstName + " " + person.lastName}
                   secondary={"Title:" + " " + person.title}
@@ -74,9 +69,6 @@ function Party() {
           <List className={classes.root + " " + "shadow"}>
             {groomList.map((person, idx) => (
               <ListItem key={idx} className="party__item">
-                {/* <ListItemAvatar>
-                <Avatar></Avatar>
-              </ListItemAvatar> */}
                 <ListItemText
                   primary={person.firstName + " " + person.lastName}
                   secondary={"Title:" + " " + person.title}
