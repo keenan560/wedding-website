@@ -201,7 +201,6 @@ function Calculator() {
             : "$0.00"}
         </small>
       </h4>
-      {rate}
     </div>
   );
 }
