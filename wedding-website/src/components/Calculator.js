@@ -102,28 +102,31 @@ const rows = [
 ];
 
 function Calculator() {
+  const [room, setRoom] = useState("");
   const [roomRates, setRoomRates] = useState([]);
-  const [guests, setGuests] = useState(null);
-  const [nights, setNights] = useState(null);
-  const [rate, setRate] = useState(null);
+  const [guests, setGuests] = useState("");
+  const [nights, setNights] = useState("");
+  const [rate, setRate] = useState("");
 
   const loadRates = (e) => {
-    console.log(e.target.value);
+    setRoom(e.target.value);
     setRoomRates(rows.filter((room) => room.roomCategory === e.target.value));
   };
 
   const totalEstimate = () => {
-    let newRate = rate.split("").slice(0).join("");
-    console.log(newRate);
-    let perGuest = parseInt(guests) * parseFloat(newRate);
+    let perGuest = parseInt(guests) * parseFloat(rate);
     return perGuest * parseInt(nights);
+  };
+
+  const toggleRate = (e) => {
+    setRate(e.target.value);
   };
 
   return (
     <div className="calculator__container">
       <p className="calculator__title mb-4 mt-4">
-        Please use the tool below to give you an estimate your total cost for
-        your stay at the resort.
+        Please use the tool below to estimate your total cost for your stay at
+        the resort.
       </p>
       <div className="row g-3 mb-4">
         <div class="col-sm-3">
@@ -134,6 +137,7 @@ function Calculator() {
             class="form-select"
             id="specificSizeSelect"
             onChange={(e) => loadRates(e)}
+            value={room}
           >
             <option selected>Choose room</option>
             {rows.map((room, idx) => (
@@ -148,14 +152,21 @@ function Calculator() {
           <select
             class="form-select"
             id="specificSizeSelect"
-            onChange={(e) => setRate(e.target.value)}
+            onChange={(e) => toggleRate(e)}
+            value={rate}
           >
             <option selected>Choose rate</option>
             {roomRates.map((rate, idx) => (
               <>
-                <option value={rate.sgl}>Single - ${rate.sgl}</option>
-                <option value={rate.dbl}>Double - ${rate.dbl}</option>
-                <option value={rate.xpax}>Xpax - ${rate.xpax}</option>
+                <option id="sgl" value={rate.sgl}>
+                  Single - ${rate.sgl}
+                </option>
+                <option id="dbl" value={rate.dbl}>
+                  Double - ${rate.dbl}
+                </option>
+                <option id="xpax" value={rate.xpax}>
+                  Xpax - ${rate.xpax}
+                </option>
               </>
             ))}
           </select>
@@ -167,6 +178,7 @@ function Calculator() {
             placeholder="Enter number of nights"
             aria-label="guests"
             onChange={(e) => setNights(e.target.value)}
+            value={nights}
           />
         </div>
         <div className="col-sm-3">
@@ -176,19 +188,20 @@ function Calculator() {
             placeholder="Enter number of guests"
             aria-label="guests"
             onChange={(e) => setGuests(e.target.value)}
+            value={guests}
           />
         </div>
       </div>
       <h4 className="">
-        Total estimate for stay at excluding flights:
+        Total estimate for stay excluding flights:
         <small className="text-muted">
           {" "}
-          {/*  */}
-          {guests && nights && roomRates && rate
+          {guests && nights && roomRates && rate && room !== "Choose room"
             ? Numeral(totalEstimate()).format("$0, 0.00")
             : "$0.00"}
         </small>
       </h4>
+      {rate}
     </div>
   );
 }
