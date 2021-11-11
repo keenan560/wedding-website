@@ -8,6 +8,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
+import Calculator from "./Calculator.js";
 
 function createData(categories, maxOccupancy, minOccupancy, sgl, dbl, xpax) {
   return { categories, maxOccupancy, minOccupancy, sgl, dbl, xpax };
@@ -274,6 +275,7 @@ function Booking() {
           </div>
         </div>
       </div>
+      <Calculator />
     </div>
   );
 }
