@@ -62,8 +62,9 @@ function Rsvp() {
   const searchGuests = (first, last) => {
     return guests.filter(
       (guest) =>
-        guest.data.firstName.toLowerCase() === first.toLowerCase() &&
-        guest.data.lastName.toLowerCase() === last.toLowerCase()
+        guest.data.firstName.toLowerCase().trim() ===
+          first.toLowerCase().trim() &&
+        guest.data.lastName.toLowerCase().trim() === last.toLowerCase().trim()
     );
   };
 
