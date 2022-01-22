@@ -6,3 +6,17 @@
 .calculator__estimate {
   height: 30px;
 }
+
+.calculator__steps {
+  font-weight: bolder !important;
+  color: #fff;
+  background-color: #000;
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 80px;
+}
+.calculator__groupcode {
+  color: red;
+  font-weight: 900;
+}

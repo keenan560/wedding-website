@@ -19,33 +19,33 @@ const rows = [
     "Deluxe Room Tropical or Pool View",
     "3 or 2.1",
     "1",
-    "$200.26",
-    "$126.16",
-    "$122.06"
+    "$162.00",
+    "$101.00",
+    "$99.00"
   ),
-  createData("Deluxe Swim Out", 2, 1, "$240.06", "$150.04", "N/A"),
+  createData("Deluxe Swim Out", 2, 1, "$194.00", "$121.00", "N/A"),
   createData(
     "Preferred Club Deluxe Room",
     "3 or 2.1",
     1,
-    "$259.90",
-    "$162.44",
-    "$159.34"
+    "$210.00",
+    "$132.00",
+    "$129.00"
   ),
   createData(
     "Preferred Club Junior Suite",
     "3.1 or 2.2",
     1,
-    "$400.51",
-    "$200.25",
-    "$197.16"
+    "$324.00",
+    "$162.00",
+    "$159.00"
   ),
   createData(
     "Preferred Club Honeymoon Suite w/Jacuzzi",
     2,
     1,
-    "$375.71",
-    "$187.86",
+    "$304.00",
+    "$152.00",
     "N/A"
   ),
   createData(
@@ -53,25 +53,18 @@ const rows = [
     "2.4 or 3.3",
     2,
     "N/A",
-    "$275.27",
-    "$272.17"
+    "$223.00",
+    "$220.00"
   ),
-  createData(
-    "Deluxe Family Room (2 adults)",
-    2.4,
-    2.2,
-    "N/A",
-    "$220.09",
-    "N/A"
-  ),
-  createData("Deluxe Family Room (3 adults)", 3.3, 3, "N/A", "$164.92", "N/A"),
-  createData("Deluxe Family Room (4 adults)", 4.2, 4, "N/A", "$137.64", "N/A"),
+  createData("Deluxe Family Room (2 adults)", 2.4, 2.2, "N/A", "178.00", "N/A"),
+  createData("Deluxe Family Room (3 adults)", 3.3, 3, "N/A", "$134.00", "N/A"),
+  createData("Deluxe Family Room (4 adults)", 4.2, 4, "N/A", "$111.00", "N/A"),
   createData(
     "Preferred Club Deluxe Family Room (2 adults) ",
     2.4,
     2.2,
     "N/A",
-    "$260.39",
+    "$210.00",
     "N/A"
   ),
   createData(
@@ -79,7 +72,7 @@ const rows = [
     3.3,
     3,
     "N/A",
-    "$195.30",
+    "$158.00",
     "N/A"
   ),
   createData(
@@ -87,7 +80,7 @@ const rows = [
     4.2,
     4,
     "N/A",
-    "$162.44",
+    "$132.00",
     "N/A"
   ),
 ];
@@ -154,7 +147,7 @@ const ratesNotInclude = [
 
 function Booking() {
   return (
-    <div className="booking__container mx-5">
+    <div className="booking__container mx-5 mb-5">
       <h1 className="booking__title">Booking Information</h1>
       <h3 className="booking__rates">Room Rates</h3>
       <div className="arrow__container">
@@ -204,6 +197,14 @@ function Booking() {
           </TableBody>
         </Table>
       </TableContainer>
+      <p className="booking__disclaimer">
+        *Room rates are quoted in US dollars / Single Occupancy – Per Night /
+        Double and Triple Occupancy – Per person per night. All taxes and
+        service charges included in the price.
+      </p>
+      <p className="booking__disclaimer">
+        *The check out time is: 12:00pm. The check in time is 3:00pm.
+      </p>
       <p className="booking__disclaimer">
         *Max and Min Occupancy - A number with a decimal i.e. "2.1", means 2
         adults and 1 child.

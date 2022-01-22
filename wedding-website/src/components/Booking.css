@@ -41,6 +41,7 @@
 .arrow__container > p {
   display: none;
 }
+
 /* media queries */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {

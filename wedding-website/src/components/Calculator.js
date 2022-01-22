@@ -7,40 +7,40 @@ const rows = [
     roomCategory: "Deluxe Room Tropical or Pool View",
     maxOccupancy: "3 or 2.1",
     minOccupancy: "1",
-    sgl: "200.26",
-    dbl: "126.16",
-    xpax: "122.06",
+    sgl: "162.00",
+    dbl: "101.00",
+    xpax: "99.00",
   },
   {
     roomCategory: "Deluxe Swim Out",
     maxOccupancy: "2",
     minOccupancy: "1",
-    sgl: "240.06",
-    dbl: "150.04",
+    sgl: "194.00",
+    dbl: "121.00",
     xpax: "N/A",
   },
   {
     roomCategory: "Preferred Club Deluxe Room",
     maxOccupancy: "3 or 2.1",
     minOccupancy: 1,
-    sgl: "259.90",
-    dbl: "162.44",
-    xpax: "159.34",
+    sgl: "210.00",
+    dbl: "132.00",
+    xpax: "129.00",
   },
   {
     roomCategory: "Preferred Club Junior Suite",
     maxOccupancy: "3.1 or 2.2",
     minOccupancy: 1,
-    sgl: "400.51",
-    dbl: "200.25",
-    xpax: "197.16",
+    sgl: "324.00",
+    dbl: "162.00",
+    xpax: "159.00",
   },
   {
     roomCategory: "Preferred Club Honeymoon Suite w/Jacuzzi",
     maxOccupancy: 2,
     minOccupancy: 1,
-    sgl: "375.71",
-    dbl: "187.86",
+    sgl: "304.00",
+    dbl: "152.00",
     xpax: "N/A",
   },
   {
@@ -48,15 +48,15 @@ const rows = [
     maxOccupancy: "2.4 or 3.3",
     minOccupancy: 2,
     sgl: "N/A",
-    dbl: "275.27",
-    xpax: "272.17",
+    dbl: "223.00",
+    xpax: "220.00",
   },
   {
     roomCategory: "Deluxe Family Room (2 adults)",
     maxOccupancy: 2.4,
     minOccupancy: 2.2,
     sgl: "N/A",
-    dbl: "220.09",
+    dbl: "178.00",
     xpax: "N/A",
   },
   {
@@ -64,7 +64,7 @@ const rows = [
     maxOccupancy: 3.3,
     minOccupancy: 3,
     sgl: "N/A",
-    dbl: "164.92",
+    dbl: "134.00",
     xpax: "N/A",
   },
   {
@@ -72,7 +72,7 @@ const rows = [
     maxOccupancy: 4.2,
     minOccupancy: 4,
     sgl: "N/A",
-    dbl: "137.64",
+    dbl: "111.00",
     xpax: "N/A",
   },
   {
@@ -80,7 +80,7 @@ const rows = [
     maxOccupancy: 2.4,
     minOccupancy: 2.2,
     sgl: "N/A",
-    dbl: "260.39",
+    dbl: "210.00",
     xpax: "N/A",
   },
   {
@@ -88,7 +88,7 @@ const rows = [
     maxOccupancy: 3.3,
     minOccupancy: 3,
     sgl: "N/A",
-    dbl: "195.30",
+    dbl: "158.00",
     xpax: "N/A",
   },
   {
@@ -96,7 +96,7 @@ const rows = [
     maxOccupancy: 4.2,
     minOccupancy: 4,
     sgl: "N/A",
-    dbl: "162.44",
+    dbl: "132.00",
     xpax: "N/A",
   },
 ];
@@ -192,7 +192,7 @@ function Calculator() {
           />
         </div>
       </div>
-      <h4 className="">
+      <h4 className="mb-5">
         Total estimate for stay excluding flights:
         <small className="text-muted">
           {" "}
@@ -200,6 +200,39 @@ function Calculator() {
             ? Numeral(totalEstimate()).format("$0, 0.00")
             : "$0.00"}
         </small>
+      </h4>
+      <h4 className="mb-5">
+        To book your stay please click{" "}
+        <a
+          href="https://booking.dreamsresorts.com/reservations/gruppo_index.html?id_stile=15252&lingua_int=eng&id_gruppo=9437&dc_gruppo=1151&id_brand=4&countryCode=US"
+          target="_blank"
+        >
+          here
+        </a>{" "}
+        and follow the steps below.
+      </h4>
+      <h4 className="mb-4 h5">
+        <p className="calculator__steps">Step 01:</p> Select Dreams Punta Cana
+        at the property.
+      </h4>
+      <h4 className="mb-4 h5">
+        <p className="calculator__steps">Step 02:</p> At the bottom of the page,
+        select Dreams Punta Cana, then the Check In & Check Out dates and Room
+        Only.
+      </h4>
+      <h4 className="mb-4 h5">
+        <p className="calculator__steps">Step 03:</p> Enter number of adults and
+        children.
+      </h4>
+      <h4 className="mb-4 h5">
+        <p className="calculator__steps">Step 04:</p> Enter the group code and
+        click on check availability.{" "}
+        <p className="calculator__groupcode">GROUP CODE: DIAKEE22</p> (All in
+        capital letters).
+      </h4>
+      <h4 className="mb-4 h5">
+        <p className="calculator__steps">Step 05:</p> Group name & rates
+        provided will be displayed according to search.
       </h4>
     </div>
   );
