@@ -20,22 +20,20 @@ const useStyles = makeStyles((theme) => ({
 
 const brideParty = [
   { firstName: "Diana", lastName: "Coats", title: "Bride" },
-  { firstName: "Natalie", lastName: "Villafana", title: "Matron of Honor" },
+  { firstName: "Natalia", lastName: "Villafana", title: "Matron of Honor" },
   { firstName: "Carlina", lastName: "Paniagua", title: "Maid of Honor" },
   { firstName: "Elizabeth", lastName: "Coats", title: "Bridesmaid" },
 ];
 const groomParty = [
   { firstName: "Keenan", lastName: "Mapp", title: "Groom" },
   { firstName: "Paul", lastName: "Mapp", title: "Patron of Honor" },
-  { firstName: "Braley", lastName: "Francisco", title: "Groomsman" },
-  { firstName: "Eric", lastName: "Saldibar", title: "Groomsman" },
+  { firstName: "Eric", lastName: "Saldibar", title: "Best Man" },
 ];
 
 const otherList = [
   { firstName: "Jayden", lastName: "Kilroy", title: "Ring Bearer" },
   { firstName: "Faith", lastName: "Villafana", title: "Flower Girl" },
   { firstName: "Victoria", lastName: "Villafana", title: "Flower Girl" },
-  { firstName: "Sarah", lastName: "Paniagua", title: "Flower Girl" },
   { firstName: "Jiselle", lastName: "Mapp", title: "Flower Girl" },
 ];
 function Party() {
