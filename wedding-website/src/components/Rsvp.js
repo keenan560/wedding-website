@@ -74,6 +74,7 @@ function Rsvp() {
       <form className="rsvp__form" onSubmit={handleSubmit(onSubmit)}>
         <h1 className="rsvp__title">RSVP</h1>
         <input
+        disabled
           placeholder="First Name"
           name="firstName"
           {...register("firstName", { required: true, maxLength: 20 })}
@@ -82,6 +83,7 @@ function Rsvp() {
           <span className="rsvp__errors">First name is required</span>
         )}
         <input
+         disabled
           placeholder="Last Name"
           name="lastName"
           {...register("lastName", { required: true, pattern: /^[A-Za-z]+$/i })}
@@ -90,6 +92,7 @@ function Rsvp() {
           <span className="rsvp__errors">Last name is required</span>
         )}
         <input
+        disabled
           placeholder="No. of guests attending"
           name="count"
           type="number"
@@ -99,13 +102,13 @@ function Rsvp() {
           <span className="rsvp__errors">1 guest minimum of guests</span>
         )}
 
-        <Button className="rsvp__submit" type="submit">
+        <Button className="rsvp__submit" type="submit" disabled>
           Submit
         </Button>
         {sucess && (
           <p className="rsvp__success">Sucess! Thank you for registering.</p>
         )}
-        <p className="rsvp__reminder">*Please RSVP by January 19th, 2022</p>
+        <p className="rsvp__reminder">*RSVP deadline was January 19th, 2022</p>
       </form>
     </div>
   );
